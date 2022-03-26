@@ -31,3 +31,7 @@ coverage
 
 npx mrm@2 lint-staged
 `
+
+### commitlint
+
+`yarn add @commitlint/{config-conventional,cli} -D yarn husky install yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'`
